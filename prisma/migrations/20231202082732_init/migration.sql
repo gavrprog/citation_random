@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "Visitor" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "new" INTEGER NOT NULL,
+    "old" INTEGER NOT NULL
+);
