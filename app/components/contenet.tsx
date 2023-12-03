@@ -30,7 +30,9 @@ export default function Content() {
                         <p>" {newCitation} "</p>                       
                     </div>
                     <div className="text-center">
-                        <button className="py-2 px-3 bg-transparent border-solid border-2 border-white cursor-pointer rounded-lg active:bg-white active:text-slate-700 active:border-slate-700" onClick={clickHandler}>
+                        <button className="py-2 px-3 bg-transparent border-solid border-2 border-white cursor-pointer rounded-lg 
+                                            active:bg-white active:text-slate-700 active:border-slate-700" 
+                                onClick={clickHandler}>
                             NEW CITATION
                         </button>
                     </div>
