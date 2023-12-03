@@ -1,8 +1,3 @@
-This project created for executinf a tast case.
-
-This application get by API random citation by pressing a button
-
-
 # Simple NEXTjs app that displays rendom citations
 
 This simpl website shows a random citation by pressing the button "NEW CITATION". Eech new citation is got throught API. In additional in the website footr is placed a visitiors counter that shows new visitors and visitors which visit the site again. In this project is used [NEXTjs](https://nextjs.org/docs) with [Teilwind](https://tailwindcss.com/docs/installation) and [Prisma](https://www.prisma.io/docs/guides) using a [SQLite](https://www.sqlite.org/docs.html) database. You can find the database file with some dummy data at [`./prisma/dev.db`](./prisma/dev.db). Like a store space for marking a new/old visitor is used the Local Storage.
